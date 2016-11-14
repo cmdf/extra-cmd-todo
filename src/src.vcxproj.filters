@@ -13,15 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\Out">
+      <UniqueIdentifier>{beff6b00-babc-4334-b1e3-3560aba3022d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\In">
+      <UniqueIdentifier>{79d973a7-1133-45b0-ada7-e38420a68cc4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="main.h">
+    <ClInclude Include="Main.h">
       <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Out\Help.h">
+      <Filter>Resource Files\Out</Filter>
+    </ClInclude>
+    <ClInclude Include="In\Help.h">
+      <Filter>Resource Files\In</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,5 +1,5 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef _OREZ_CON_MAIN_H_
+#define _OREZ_CON_MAIN_H_
 
 
 // Version Defs

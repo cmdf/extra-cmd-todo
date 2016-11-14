@@ -1,4 +1,6 @@
-#include "main.h"
+#include "Main.h"
+#include "In\Help.h"
+#include "Out\Help.h"
 
 
 int main() {
